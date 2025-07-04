@@ -34,7 +34,8 @@
     "prepare": "npm run build",
     "preinstall": "node ./engine-requirements.js",
     "release": "release-it",
-    "test": "jest"
+    "test": "jest",
+    "build": "echo 'Add your build command here, e.g., tsc, babel, or webpack'"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
