@@ -1,5 +1,5 @@
 {
-  "name": "yasuki-baileys",
+  "name": "your-package-name",
   "version": "1.0.0",
   "description": "Custom Baileys WhatsApp Web API for Node.js with Multi-Device support. (original version:- 6.8.5)",
   "keywords": [
@@ -13,12 +13,11 @@
   },
   "license": "MIT",
   "author": "DillaCodeX",
-  "main": "lib/index.js",
+  "main": "index.js",
   "types": "lib/index.d.ts",
   "files": [
-    "lib/*",
-    "WAProto/*",
-    "engine-requirements.js"
+    "lib/",
+    "index.js"
   ],
   "scripts": {
     "build:all": "tsc && typedoc",
@@ -32,10 +31,13 @@
     "lint": "eslint src --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "eslint src --fix --ext .js,.ts,.jsx,.tsx",
     "prepack": "tsc",
-    "prepare": "tsc",
+    "prepare": "npm run build",
     "preinstall": "node ./engine-requirements.js",
     "release": "release-it",
     "test": "jest"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -101,7 +103,7 @@
     }
   },
   "packageManager": "yarn@1.22.19",
-   "engines": {
-     "node": ">=20.0.0"
-   }
+  "engines": {
+    "node": ">=20.0.0"
+  }
 }
