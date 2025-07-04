@@ -5,11 +5,11 @@
   <img src="https://iili.io/FcBNszQ.jpg" />
   <br>
   <a href="https://www.npmjs.com/package/yasuki-baileys">
-    <img src="https://img.shields.io/npm/v/baileys-mod?color=red&label=Version&logo=npm" alt="npm version" />
+    <img src="https://img.shields.io/npm/v/yasuki-baileys?color=red&label=Version&logo=npm" alt="npm version" />
   </a>
 
   <a href="https://www.npmjs.com/package/yasuki-baileys">
-    <img src="https://img.shields.io/npm/dt/baileys-mod?color=red&label=Downloads&logo=npm" alt="npm downloads" />
+    <img src="https://img.shields.io/npm/dt/yasuki-baileys?color=red&label=Downloads&logo=npm" alt="npm downloads" />
   </a>
 
   <a href="https://whatsapp.com/channel/0029Vb5ZBnkFHWq24cuKkf04">
